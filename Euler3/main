@@ -1,0 +1,31 @@
+
+import java.util.Scanner;
+import java.io.*;  
+
+pulic class Euler3
+{
+ 
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    
+    System.out.println("Enter number: ");
+    long n = in.nextLong();
+    System.out.println("The number entered is: " + n);
+    
+  }
+ 
+ public static int factor(long num)
+ {
+   long w;
+   int ary[];
+   for(w = 2, int i = 1; w < num; w++, i++)
+   {
+     if(num % w == 0)
+     {
+       num = num / w;
+       ary[i] = num;
+     }     
+   }
+ } 
+}

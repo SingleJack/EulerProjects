@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1360049664 source:c:\users\roy\eulerprojects\euler8\euler8.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+	<cstdlib>
+
