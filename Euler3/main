@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.io.*;  
 
-pulic class Euler3
+pulic class Euler3333
 {
  
   public static void main(String[] args)
